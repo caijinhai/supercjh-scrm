@@ -8,4 +8,9 @@
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
-@import "index";
+@import '~element-ui/lib/theme-default/index.css';
+
+@import 'theme-class';
+
+@import 'style';
+

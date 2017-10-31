@@ -2,19 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>H5</title>
-    <link rel="stylesheet" href="css/lib/jquery.fullpage.min.css">
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <title>supercjh-scrm</title>
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 <body>
-    <div id="dowebok">
-        <div class="section">
-            <img src="img/bg1.jpg">
-        </div>
-        <div class="section">
-            <img src="img/bg2.jpg">
-        </div>
+    <div id="app">
     </div>
 </body>
-<script type="js/app.js"></script>
-<script type="js/lib/jquery.fullpage.min.js"></script>
+<script src="{{ mix('js/app.js') }}"></script>
 </html>
